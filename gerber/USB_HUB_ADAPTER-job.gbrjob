@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.7)"
     },
-    "CreationDate": "2022-10-31T13:42:49+03:00"
+    "CreationDate": "2022-11-24T18:50:26+03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,20 +14,20 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 117.3229,
-      "Y": 45.85
+      "X": 117.5751,
+      "Y": 53.5325
     },
-    "LayerNumber": 6,
-    "BoardThickness": 1.6888,
+    "LayerNumber": 4,
+    "BoardThickness": 1.0108,
     "Finish": "None"
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.127,
-      "PadToTrack": 0.127,
+      "PadToPad": 0.19,
+      "PadToTrack": 0.19,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.16,
+      "MinLineWidth": 0.19,
       "TrackToRegion": 0.508,
       "RegionToRegion": 0.508
     },
@@ -36,7 +36,7 @@
       "PadToPad": 0.0,
       "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.16,
+      "MinLineWidth": 0.2,
       "TrackToRegion": 0.508,
       "RegionToRegion": 0.508
     }
@@ -58,18 +58,8 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "USB_HUB_ADAPTER-In3_Cu.gbr",
-      "FileFunction": "Copper,L4,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "USB_HUB_ADAPTER-In4_Cu.gbr",
-      "FileFunction": "Copper,L5,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "USB_HUB_ADAPTER-B_Cu.gbr",
-      "FileFunction": "Copper,L6,Bot",
+      "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -124,7 +114,7 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.018,
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
@@ -136,7 +126,7 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.018,
+      "Thickness": 0.035,
       "Name": "In1.Cu"
     },
     {
@@ -148,43 +138,19 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.018,
+      "Thickness": 0.035,
       "Name": "In2.Cu"
     },
     {
       "Type": "Dielectric",
       "Thickness": 0.11,
       "Material": "FR4",
-      "Name": "In2.Cu/In3.Cu",
-      "Notes": "Type: dielectric layer 3 (from In2.Cu to In3.Cu)"
+      "Name": "In2.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.018,
-      "Name": "In3.Cu"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.6,
-      "Material": "FR4",
-      "Name": "In3.Cu/In4.Cu",
-      "Notes": "Type: dielectric layer 4 (from In3.Cu to In4.Cu)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.018,
-      "Name": "In4.Cu"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.11,
-      "Material": "FR4",
-      "Name": "In4.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 5 (from In4.Cu to B.Cu)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.018,
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
