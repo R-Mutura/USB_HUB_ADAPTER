@@ -1,4 +1,4 @@
-22043791485091103
+22047136543750245
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90342,6 +90342,13 @@ CONV_TPS61022RWUR
 7
 7
 greencharge-footprints
+CORAL_SOM
+
+
+0
+0
+0
+greencharge-footprints
 CO_NO2_SENSOR_MICS_10-SMD
 
 
@@ -93099,6 +93106,13 @@ round din connector
 0
 10
 1
+greencharge-footprints
+sd_card_SD106M
+SD-106M-2
+Connector
+0
+14
+14
 greencharge-footprints
 sd_tf_card_TF115BCP9
 TF-115-BCP9-2
